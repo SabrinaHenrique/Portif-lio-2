@@ -1,0 +1,214 @@
+/*ESTILIZAÇAO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(31, 30, 30);
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+
+header h2{
+    color: rgb(170, 42, 42);
+}
+/*ESTILIZAÇAO DO CABEÇARIO*/
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+      color: rgb(94, 79, 79);
+      text-decoration:none;
+      display: inline-block;
+      transition: .2s;
+}
+header a:hover{
+    color:#ffff;
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style-type: nome;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(223, 72, 72);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+header .btn-contato button:hover{
+    background-color: rgba(228, 73, 73, 0.623);
+    box-shadow: 0px 0px 8px ;
+}
+/*Estilo do topo*/
+section.topo-do-site{
+    align-items: center;
+    justify-content: center;
+    padding: 85px 10%;
+}
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap:90px;
+}
+.topo-do-site h1{
+    color: #ffff;
+    font-size: 45px;
+    line-height: 40px;
+}
+.topo-do-site span{
+    color: darkred;
+}
+.topo-do-site .txt-topo-site p{
+   color: #ffff;
+   margin: 40px 0;
+   gap:90px;
+   font-size: 17px;
+}
+/*ESTILIZAÇÃO DO SOBRE*/
+section.sobre{
+    padding:40px 4%;
+
+}
+section.sobre .flex{
+    align-items: center;
+    gap:50px;
+}
+.sobre .txt-sobre{
+    color: #ffff;
+}
+.sobre .txt-sobre h3{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt-sobre h3 span{
+    color:darkred;
+    display:block;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre .interface{
+    display: flex;
+    gap: 50px;
+}
+.sobre .interface button{
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(223, 72, 72);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.sobre .interface button:hover{
+    background-color: rgba(228, 73, 73, 0.623);
+    box-shadow: 0px 0px 8px ;
+}
+/*AEJEITANDO MEUS BOTOES*/
+/*PULANDO ETAPAS*/
+section h2{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffff;
+}
+section h2 span{
+    color: darkred;
+}
+section.formulario{
+    padding: 80px 4%;
+} 
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+form input, form textarea, select{
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #ffff;
+    font-size: 15px;
+}
+select{
+    color: #7e7b7b;
+}   
+section option{
+   background-color:rgb(39, 39, 39);
+   color: white;
+}   
+form textarea{
+   resize: none;
+   max-height: 200px;
+}
+form .btn-enviar{
+    margin-top: 20px; 
+    text-align: center;
+}
+form .btn-enviar input{
+    width: 120px;
+    background-color: darkred;
+    color: rgb(22, 21, 21);
+    font-weight: 700px;
+    cursor: pointer;
+}
+ .btn-enviar input:hover{
+    background-color: rgba(228, 73, 73, 0.623);
+    box-shadow: 0px 0px 8px ;
+   transition: .2s;
+}
+/*ESLIZAÇÃO DO RODA PÉ*/
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .line-footer{
+    padding: 20px 0;
+}
+.borda{
+    border-top: 2px solid  darkred;
+}
+footer .line-footer h2{
+    color: rgb(170, 42, 42);
+    font-size: 30px;
+}
+
+footer .line-footer p i{
+    color: darkred;
+    font-size: 22px;
+}
+footer .line-footer p a{
+    color: #ffff;
+}
